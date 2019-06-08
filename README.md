@@ -1,6 +1,6 @@
 # finalProject
 
-# PacNEATjs create Pacman in Javascript
+# [PacNEATjs](https://moranarm.github.io/csPortfolio/PacNEATjs/index.html) create Pacman in Javascript
 
 This project was to create the game Pacman in Javascript, using p5.js and es6 syntax, along with implementing the NEAT algorithm to train pacman to beat the game itself. The game has the ghosts finding the correct location around pacman, being Blinky goes directly after him, Pinky goes 4 spaces ahead, Inky uses pacman and blinky's locations and Clyde goes right after pacman until he is within 8 spaces, turing to scatter mode until he is farther than 8 away from Pacman, then goes back to targeting him. The visuals for Pacman are made using p5js objects such as ellipses, arcs and rectangles in order to run smoother than having an image move around the screen, which is beneficial to both the end result of how the ghosts and pacman appear as well as the playability of the game to run at a smooth framerate. 
 
